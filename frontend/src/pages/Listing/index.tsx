@@ -30,8 +30,8 @@ function Listing() {
         );
     }, [pageNumber]);
 
-    const handlePageChange = (newPageNumber : number) => {
-        setPageNumber(newPageNumber);
+    const handlePageChange = (newNumber: number) => {
+        setPageNumber(newNumber);
     }
 
     return (
